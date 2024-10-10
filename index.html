@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+        <main>
+            <div class="location">
+
+                <input type="text" placeholder="Enter a city" id="city">
+
+                <button onclick="getWeather()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <h1 id="location">City</h1>
+            <p id="temperature">--°c</p>
+            <h2>Temperature</h2>
+
+            <div id="weather-info">
+
+                <div>
+                    <p id="humidity">0%</p>
+                    <h3>Humidity</h3>
+                </div>
+
+                <div>
+                    <p id="wind">0 km/ph</p>
+                    <h3>Wind</h3>
+                </div>
+
+                <div>
+                    <p id="feels-like">0°</p>
+                    <h3>Feels Like</h3>
+                </div>
+
+                <div>
+                    <p id="visibility">0 km</p>
+                    <h3>Visibility</h3>
+                </div>
+
+                <div>
+                    <p id="pressure">0 hPa</p>
+                    <h3>Pressure</h3>
+                </div>
+
+                <div>
+                    <p id="uv-index">0 mw</p>
+                    <h3>Uv Index</h3>
+                </div>
+
+            </div>
+
+        </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
